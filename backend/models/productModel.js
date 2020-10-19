@@ -35,16 +35,12 @@ const productShema = mongoose.Schema({
     type: String,
     required: true
   },
-  password: {
+  category: {
     type: String,
     required: true
   },
-  category: {
-    type: Boolean,
-    required: true
-  },
   description: {
-    type: Boolean,
+    type: String,
     required: true
   },
   reviews: [reviewSchema],
