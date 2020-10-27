@@ -142,7 +142,7 @@ const ShippingScreen = ({ history }) => {
                   disabled={cart.cartItems === 0}
                   onClick={placeOrderHandler}
                 >
-                  PlaceOrder
+                  Place Order
                 </Button>
               </ListGroup.Item>
             </ListGroup>
